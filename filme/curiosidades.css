@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.curiosidades {
+    margin-top: 30px;
+    margin-left: 10px;
+    color: rgb(67, 67, 67);
+    background-color: #42f64bae;
+    border-radius: 10px;
+    padding: 20px;
+    width: 250px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: transform 0.2s;
+}
+.curiosidade{
+    width: 200px;;
+}
+body {
+    background-image: url(image.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+nav h1 {
+    color: green;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #023705;
+    padding: 3px 20px;
+}
+nav a {
+    list-style: none;
+    text-decoration: none;
+    color: green;
+    font-weight: bold;
+    transition: all ease 0.3s;
+}
+nav ul{
+    list-style: none;
+    text-decoration: none;
+    display:flex;
+    gap: 15px;
+}
+nav a:hover {
+    cursor: pointer;
+    color: chartreuse;
+}
